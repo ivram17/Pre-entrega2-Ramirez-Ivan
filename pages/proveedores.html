@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proveedores Car Center</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+   
+<body>
+    <header> 
+        <div class="headerLogo" >
+          <img src="../img/carcenter.png" alt="Lubricentro Car Center">
+        </div> 
+        <nav class="menuNav">
+          <input type="checkbox" id="ckbox">
+          <label for="ckbox" class="desplegable">
+              <i class="fa fa-bars" aria-hidden="true"></i>
+          </label>
+          <!--ICONOS https://fontawesome.com/v4/icons/-->
+          <ul class="menu-box">
+              <li><a href="../index.html" class="fa fa-tint" id="inicio"> INICIO</a></li>
+              <li><a href="./productos.html" class="fa fa-tint"> PRODUCTOS</a></li>
+              <li><a href="../pages/servicios.html" class="fa fa-tint"> SERVICIOS</a></li>
+              <li><a href="../pages/servicios.html" class="fa fa-tint"> PROMOCIONES</a></li>
+              <li><a href="../pages/contacto.html" class="fa fa-tint"> CONTACTO</a></li>
+          </ul>
+        </nav>
+        
+      </header>
+<section>
+    <div class="formProv">
+        <form  action="" method="" enctype="">
+        <div class="esp">
+            <label for="fname">Nombre y Apellido:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Ingrese su nombre..." required>
+        </div>
+
+        <div class="esp">
+            <label for="fmail"> E-mail:</label><br>
+            <input required type="email" id="femail" name="femail">
+        </div>
+        <br>
+        <br>
+        <div>
+            <label for="archivo" >Subir archivo:</label>
+            <input type="file" id="archivo" name="files"  multiple>
+        </div>
+        <br>
+        <div class="esp">
+            <input type="checkbox" id="op1" name="op1" value="Ventas">
+            <label for="op1">Ventas</label><br>
+            <input type="checkbox" id="op2" name="op2" value="Cobros">
+            <label for="op2">Cobros</label><br>
+            <input type="checkbox" id="op3" name="op3" value="Listas">
+            <label for="op3">Listas</label><br>
+        </div>
+        <br>
+        <div class="esp">
+            <label>Comentarios:</label><br>
+            <textarea name="message" style="width:400px; height:400px;" required>Dejanos tu mensaje.</textarea><br>
+            <input type="submit" value="Enviar" class="btnEnv">
+        </div>
+        </form>
+    </div>
+<section>
