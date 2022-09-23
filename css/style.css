@@ -19,6 +19,10 @@ header .headerLogo img {
     margin-top: 15px;
     float:left;
     margin-left: 50px;} 
+header .headerLogo img:hover {  
+    color:cyan;
+}
+
 header .menuNav{
     padding-block-start: 35px;
     display: flex;
@@ -38,7 +42,7 @@ header nav ul li a{
     letter-spacing: 2px;
     }
 
-    .desplegable{
+.desplegable{
     float:left;
     cursor:pointer;
     display: none;
@@ -393,31 +397,35 @@ section .accordion-button{
 
 /*responsive*/
 @media(max-width:1090px){
-    header .headerLogo img {
-        float:right;
-        margin-right: 2rem;
-        }
-.desplegable {display: flex;
-    position: fixed;}
+header .headerLogo img {
+    float:right;
+    margin-right: 2rem;
+    }
+main h1{position: relative;
+    z-index:0;}
+.desplegable {display:block;
+    position:absolute;}
 header nav ul{
-        display: flex;
-        position: fixed;
-        flex-direction: column;
-        width: auto;
-        height: auto;
-        background-color:rgb(159, 155, 153);
-        top: 10vh;
-        left: -100%;
+    display:flex;
+    position: relative;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    background-color:rgb(159, 155, 153);
+    margin-top: 7vh;
+    left: -100%;    
     }
 header nav ul li{
-    
-    display: flex;
-    flex-direction: column;
+    display: flexbox;
+    position: static;
     padding-left: 1em;
     border-bottom: solid gray;
+    
     }
 header nav ul li a {
     color: black;
+    position: relative;
+    z-index: 9;
     }
 #ckbox {float: left;}
 #ckbox:checked ~ .menu-box{
@@ -432,5 +440,12 @@ body aside { display:none}
     display:flex;
     flex-direction: column;
     }
+.col-sm-6 {
+    display: flex;
+    flex-direction: column;
+}
+.indexCont {
+    display:flex;
+    justify-items: center;}
 }
 
