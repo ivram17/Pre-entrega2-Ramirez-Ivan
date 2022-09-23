@@ -431,21 +431,16 @@ header nav ul li a {
 #ckbox:checked ~ .menu-box{
     left: 0;
     }
-.indexCont{display:flex ;
-    }
-.indexCont col{display: flex;
-    flex-direction: column;}
+
+
 body aside { display:none}
 .falsoAside{
     display:flex;
     flex-direction: column;
     }
-.col-sm-6 {
-    display: flex;
-    flex-direction: column;
-}
-.indexCont {
-    display:flex;
-    justify-items: center;}
+
+
+
+
 }
 
