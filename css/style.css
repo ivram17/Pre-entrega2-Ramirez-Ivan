@@ -401,9 +401,8 @@ header .headerLogo img {
     float:right;
     margin-right: 2rem;
     }
-main h1{position: relative;
-    z-index:0;}
-.desplegable {display:block;
+
+header .desplegable {display:block;
     position:absolute;}
 header nav ul{
     display:flex;
@@ -427,20 +426,26 @@ header nav ul li a {
     position: relative;
     z-index: 9;
     }
-#ckbox {float: left;}
-#ckbox:checked ~ .menu-box{
+header #ckbox {float: left;}
+header #ckbox:checked ~ .menu-box{
     left: 0;
     }
-
-
+.indexCont{display:flex ;
+    }
+.indexCont col{display: flex;
+    flex-direction: column;}
 body aside { display:none}
 .falsoAside{
     display:flex;
     flex-direction: column;
     }
-
-
-
-
+.col-sm-6 {
+    display: flex;
+    flex-direction: column;
 }
+.indexCont {
+    display:flex;
+    justify-items: center;}
+}
+
 

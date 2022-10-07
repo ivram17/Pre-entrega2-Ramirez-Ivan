@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lubricentro y Servivios">
+    <meta name="keywords" content="lubricantes, cambio, aceite, lubricentro">
     <title>Lubricentro Car Center</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../sass/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
-</head>
-   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="shortcut icon" href="../img/carcenter.ico" type="imahe/x-icon">
+</head>  
 <body>
     <header> 
         <div class="headerLogo" >
@@ -29,65 +32,88 @@
           </ul>
         </nav>
         
-      </header>
-    
+    </header>
     <main id="intro">
         <h1>CONTACTOS</h1>
         <h3>"Seguinos en nuestras redes"</h3>
     </main>
-    <div class="contTabs">
+
+    <div class="contRedes"> 
         <div class="tabRedes">
-            <table>
+        <table class="table table-dark table-striped">
+            <thead>
+                <tr>
+                    <th scope="col" colspan="3">Redes</th>
+                </tr>
+                </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Seguinos en Intagram</th>
+                    <td><a href="https://www.instagram.com/carcentersn/"  class="fa fa-instagram" aria-hidden="true" target="_blank" title=" DESCARGAR "></a></td>
+                </tr>
+                <tr>
+                    <th scope="row">Buscanos en Facebook </th>
+                    <td><a href="https://www.facebook.com/Car-Center-SN-727047110834304"  class="fa fa-facebook-official" aria-hidden="true"  target="_blank"></a></td>
+                </tr>
+                <tr>
+                    <th scope="row">Comentanos en Twiter</th>
+                    <td><a href="https://twitter.com/?lang=en"  class="fa fa-twitter" aria-hidden="true" target="_blank"></a></td> 
+                </tr>
+            </tbody>                       
+        </table>        
+        </div>
+    </div>
+    <!--contacto integrantes-->
+    <div class="contTel">
+    <div class="contInt">              
+            <table class="table table-dark table-striped">
                 <thead>
                     <tr>
-                    <th scope="col" colspan="3">Redes</th>
+                    <th scope="col" colspan="5">Telefonos de contacto</th>
                     </tr>
                 </thead>
+              
                 <tbody>
+                    
+                    
                     <tr>
-                        <th>Seguinos en Intagram</th>
-                        <td><a href="https://www.instagram.com/carcentersn/"  target="_blank" > <img src="../img/instagram.png"></a></td>
+                        <th> <img src="../img/img11.jpg"></th>
+                        <th scope="row">Administración</th>
+                        <td> Ramírez Horacio</td>
+                        <td><i class="fa fa-phone" aria-hidden="true"></i></td>
+                        <td> 336-334455</td>    
                     </tr>
                     <tr>
-                        <th>Seguinos en Facebook </th>
-                        <td><a href="https://www.facebook.com/Car-Center-SN-727047110834304"   target="_blank"> <img src="../img/facebook.png"> </a></td>
-                    </tr>
+                        <th> <img src="../img/img22.jpg" ></th>
+                        <th scope="row">Ventas</th>
+                        <td> Gil Gunderson</td>
+                        <td><i class="fa fa-phone" aria-hidden="true"></i></td>
+                        <td> 336-445566</td>    
+                    </tr>                    
                     <tr>
-                        <th>Comentanos en Twiter</th>
-                        <td><a href="https://twitter.com/?lang=en"   target="_blank"><img src="../img/twitter.png"></a></td> 
+                        <th> <img src="../img/img4.jpg" ></th>
+                        <th scope="row">Taller</th>
+                        <td> Ramírez Iván</td>
+                        <td><i class="fa fa-phone" aria-hidden="true"></i></td>
+                        <td> 336-458282</td>    
+                    </tr>
+                           
+                    <tr>
+                        <th> <img src="../img/img33.jpg"></th>
+                        <th scope="row">Compras</th>
+                        <td> José Alejandra</td>
+                        <td><i class="fa fa-phone" aria-hidden="true"></i></td>
+                        <td> 336-008599</td>    
                     </tr>
                 </tbody>                       
-            </table>            
-        </div>
-        <div class="tabIntegrantes">
-            <table>
-                <h3>Nuestro Equipo</h3>
-                <tr> 
-                    <th> <img src="../img/img11.jpg"></th>
-                    <th>ADMINISTRACION</th>
-                    <th>- Ramírez Horacio</th>
-                    <th>-   336-4112233   -</th>
-                </tr>
-                <tr>
-                    <th> <img src="../img/img22.jpg"></th>
-                    <th>VENTAS</th>
-                    <th>- Gil Gunderson</th>
-                    <th>- 336-4339900 -</th>
-                </tr>
-                <tr>
-                    <th> <img src="../img/img33.jpg"></th>
-                    <th>COMPRAS</th>
-                    <th>- José Alejandra</th>
-                    <th>- 336-4212112 -</th>
-                </tr>
-                <tr>
-                    <th> <img src="../img/img4.jpg"></th>
-                    <th>TALLER</th>
-                    <th>- Ramírez Iván </th>
-                    <th>- 336-337776 -</th>
-                </tr>
             </table>
-        </div>
-    </div>    
+            
+    </div>
+    </div>
+
+   
+  
+
+
 </body>
 </html>
